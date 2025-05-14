@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 48px 0;
+  text-align: center;
+}
+
+header .name {
+  font-size: 48px;
+}
+
+header .tagline {
+  font-size: 24px;
+}
+
+section {
+  padding: 32px;
+  text-align: center;
+}
+
+.bio-section .bio-text {
+  font-size: 19px;
+  color: #7f8c8d;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  display: inline-block;
+  margin: 8px 16px;
+  background-color: #f39c12;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.project-title {
+  background-color: #ecf0f1;
+  padding: 24px;
+  margin-bottom: 24px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-title h3 {
+  font-size: 28px;
+}
+
+.toggle-theme, footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 16px 0;
+}
+
+#toggleThemeBtn {
+  padding: 12px 25px;
+  background-color: #2980b9;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+#toggleThemeBtn:hover {
+  background-color: #3498db;
+}
+
+.reach-out a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+.reach-out a:hover {
+  text-decoration: underline;
+}
+
+body.light-mode {
+  background-color: #fff;
+  color: #2c3e50;
+}
+
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+body.dark-mode .skills-list li {
+  background-color: #e67e22;
+}
+
+body.dark-mode .project-title {
+  background-color: #34495e;
+}
+
+body.dark-mode .reach-out a {
+  color: #1abc9c;
+}
